@@ -8,7 +8,7 @@
     {
       "name": "晶彩天气看看赚",
       "type": "cron",
-      "time": "30 9,20 * * *",
+      "time": "30 9 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -48,7 +48,7 @@
     {
       "name": "中青签到",
       "type": "cron",
-      "time": "15 2 * * *",
+      "time": "15 6 * * *",
       "running": false,
       "job": {
         "type": "runjs",
@@ -128,7 +128,7 @@
     {
       "name": "中青抽奖",
       "type": "cron",
-      "time": "34 21 * * *",
+      "time": "34 15 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -188,7 +188,7 @@
     {
       "name": "晶彩签到",
       "type": "cron",
-      "time": "15 2 * * *",
+      "time": "15 7 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -238,7 +238,7 @@
     {
       "name": "晶彩每日任务宝箱领取",
       "type": "cron",
-      "time": "15 22 * * *",
+      "time": "15 20 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -258,7 +258,7 @@
     {
       "name": "晶彩抽奖",
       "type": "cron",
-      "time": "34 22 * * *",
+      "time": "34 18 * * *",
       "running": true,
       "job": {
         "type": "runjs",
@@ -268,7 +268,7 @@
     {
       "name": "晶彩提现",
       "type": "cron",
-      "time": "34 9 * * *",
+      "time": "10 10 * * *",
       "running": true,
       "job": {
         "type": "runjs",
