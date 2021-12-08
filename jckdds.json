@@ -1,0 +1,109 @@
+{
+  "name": "晶彩看点",
+  "author": "1",
+  "note": "",
+  "date": "2021-12-08 10:09:05",
+  "type": "task",
+  "list": [
+    {
+      "name": "晶彩签到",
+      "type": "cron",
+      "time": "30 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jcqd.js"
+      }
+    },
+    {
+      "name": "晶彩文章",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jcwz.js"
+      }
+    },
+    {
+      "name": "晶彩看看赚",
+      "type": "cron",
+      "time": "45 15 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jckkz.js"
+      }
+    },
+    {
+      "name": "晶彩火爆转发",
+      "type": "cron",
+      "time": "20 8,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jc_share.js"
+      }
+    },
+    {
+      "name": "晶彩福利视频",
+      "type": "cron",
+      "time": "20 17 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Adv_video.js"
+      }
+    },
+    {
+      "name": "晶彩每日任务宝箱领取",
+      "type": "cron",
+      "time": "15 20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jcbox.js"
+      }
+    },
+    {
+      "name": "晶彩好友签到红包",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jc_friendSign.js"
+      }
+    },
+    {
+      "name": "晶彩抽奖",
+      "type": "cron",
+      "time": "34 18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jc_Rotary.js"
+      }
+    },
+    {
+      "name": "晶彩提现",
+      "type": "cron",
+      "time": "50 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "jc_withdraw.js"
+      }
+    },
+    {
+      "name": "晶彩每日收益统计",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": false,
+      "job": {
+        "type": "runjs",
+        "target": "jc_today_score.js"
+      }
+    }
+  ]
+}
